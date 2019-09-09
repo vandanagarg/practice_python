@@ -1,0 +1,14 @@
+from collections import Counter
+
+#taking input from user
+test_str = input("Enter a string : ")
+
+#using if else
+all_freq = {}
+for i in test_str:
+    if i in all_freq:
+        all_freq[i] += 1
+    else:
+        all_freq[i] = 1
+# printing result
+print("Count of all characters in the string is :\n " + str(all_freq))
