@@ -1,3 +1,5 @@
+#problem statement : to get count of all letters in a string.
+
 from collections import Counter
 
 #taking input from user
