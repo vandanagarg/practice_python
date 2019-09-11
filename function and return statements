@@ -21,3 +21,22 @@ print(cube(3))
 
 result = cube(3)
 print(result)
+
+
+##this line of code give no o/p
+def cube(num):
+    num*num*num
+    
+cube(3)
+
+##this line of code give  o/p as NONE
+def cube(num):
+    num*num*num
+    
+print(cube(3))
+
+##this line of code give  o/p as 27
+def cube(num):
+    return num*num*num
+    
+print(cube(3))
