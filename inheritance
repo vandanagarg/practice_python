@@ -1,0 +1,17 @@
+#Inheritance  # we can define a class and define some attributes and functions in the class and then use this class in some other class
+
+from chef import Chef
+
+myChef = Chef()
+myChef.make_chicken()
+
+#now if i want to make a class that model a different type of chef
+#lets see our Chinese Chef
+
+from ChineseChef import chinesechef
+
+myChineseChef = chinesechef()
+myChineseChef.make_special_dish()
+myChineseChef.make_chicken()
+
+
