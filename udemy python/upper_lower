@@ -1,17 +1,18 @@
 def myfunc(*args):
-    aA =''
-    for item in args:
-        #print(item)
-        for i in range (0, len(item)):
+    out_string =''
+    for input_string in args:
+        #print(input_string)
+        for i in range (0, len(input_string)):
             if i%2 == 0:
-                a = item[i].lower()
+                a = input_string[i].lower()
                 #print (a)
+                #i = i+ 1
             else:
-                a = item[i].upper()
+                a = input_string[i].upper()
                 #print (a)
-            i = i+ 1
-            aA = aA+ a
-        return aA
+            #i = i+ 1
+            out_string = out_string + a
+        return out_string
         
         
         
