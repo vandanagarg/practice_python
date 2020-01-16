@@ -8,5 +8,5 @@ class Student:  #buiding attributes for student class
 
 
 #class is basically an overview of what student datatype is
-#and an object is an actual student represented inside our programm and is no more a
-#now we have to call this filefrom our actual file/programm
+#and an object is an actual student represented inside our program
+#now we have to call this filefrom our actual file/program

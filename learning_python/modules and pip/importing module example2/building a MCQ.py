@@ -30,13 +30,3 @@ def run_test(questions):  # here we want to ask a list of question objects to us
 run_test(questions)
 
 
-
-####################
-
-#module question.py  (files are enclosed)
-
-class Question:
-    
-    def __init__(self, prompt, answer):
-        self.prompt = prompt
-        self.answer = answer

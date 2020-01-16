@@ -1,15 +1,3 @@
-#Object Functions #function in classes
-#class functions is something that can be used within the class and can be used to modify objects of that class
-
-from student import Student
-
-student1 = Student("van", "Maths", 3.8)
-student2 = Student("PS", "science", 3.1)
-
-print(student2.on_honor_roll())
-
-
-
 ##module student.py
 
 class Student:  #buiding attributes for student class
@@ -27,7 +15,7 @@ class Student:  #buiding attributes for student class
         else:
             return False
 
-#class is basically an overview of what student datatype is
-#and an object is an actual student represented inside our programm and is no more a
-#now we have to call this filefrom our actual file/programm
+#class is basically an overview of what student data type is
+#and an object is an actual student represented inside our program
+#now we have to call this file from our actual file/program
 
