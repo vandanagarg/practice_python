@@ -25,12 +25,12 @@ print(monthConversions.get("dec"))   #if we pass some wrong key it doesn't throw
 print(monthConversions.get("dec", "Not a valid key"))   # or we can return something we wish as default
 
 
-o/p
-
-C:\Users\as\Anaconda3\envs\Giraffe\python.exe C:/Users/as/PycharmProjects/Giraffe/app.py
-March
-December
-None
-Not a valid key
-
-Process finished with exit code 0
+# o/p
+#
+# C:\Users\as\Anaconda3\envs\Giraffe\python.exe C:/Users/as/PycharmProjects/Giraffe/app.py
+# March
+# December
+# None
+# Not a valid key
+#
+# Process finished with exit code 0

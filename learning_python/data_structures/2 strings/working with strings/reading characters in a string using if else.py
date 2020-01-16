@@ -18,12 +18,12 @@ print("Count of all characters in the string is :\n " + str(all_freq))
 
 #output:
 #just lower case input/output no special characters.
-
-Enter a string : iamgood
-Count of all characters in the string is :
- {'i': 1, 'a': 1, 'm': 1, 'g': 1, 'o': 2, 'd': 1}
- 
- #with special characters and upper case
- Enter a string : I am good :)
-Count of all characters in the string is :
- {'I': 1, ' ': 3, 'a': 1, 'm': 1, 'g': 1, 'o': 2, 'd': 1, ':': 1, ')': 1}
+#
+# Enter a string : iamgood
+# Count of all characters in the string is :
+#  {'i': 1, 'a': 1, 'm': 1, 'g': 1, 'o': 2, 'd': 1}
+#
+#  #with special characters and upper case
+#  Enter a string : I am good :)
+# Count of all characters in the string is :
+#  {'I': 1, ' ': 3, 'a': 1, 'm': 1, 'g': 1, 'o': 2, 'd': 1, ':': 1, ')': 1}

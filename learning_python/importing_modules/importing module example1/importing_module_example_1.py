@@ -9,4 +9,3 @@ student2 = Student("PS", "science", 3.1)
 print(student2.on_honor_roll())
 print(student1.on_honor_roll())
 
-
