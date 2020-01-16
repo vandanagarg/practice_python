@@ -1,7 +1,0 @@
-Hello this is a text file.
-This is second line.
-This is third line.
-I am Vandana Garg
-Ich bin Vandana Garg.
-Danke!!
-Another line
