@@ -1,4 +1,4 @@
-class User:
+class UserDetails:
 
     def __init__(self,name, email, age):
         self.name = name
@@ -25,11 +25,11 @@ class User:
             print("User Area is : " + address_index.area)
             print("User Place is : " + address_index.place)
 
-my_user = User("Vandana", "er.va", 27)
+my_user = UserDetails("Vandana", "er.va", 27)
 
-home_address = User.add_address(my_user, "66", "ward 12", "Kurali")
-current_address = User.add_address(my_user, "0401", "str. praiser kommune", "Berlin")
-picky_address = User.add_address(my_user, "453", "Geeta Bhawan ", "Moga")
+home_address = UserDetails.add_address(my_user, "66", "ward 12", "Kurali")
+current_address = UserDetails.add_address(my_user, "0401", "str. praiser kommune", "Berlin")
+picky_address = UserDetails.add_address(my_user, "453", "Geeta Bhawan ", "Moga")
 
 
 my_user.__str__()

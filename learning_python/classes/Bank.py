@@ -3,7 +3,7 @@
 # withdraw- shouldn't exceed balance
 # print balances, individual data
 
-class Bank():
+class Bank:
 
     def __init__(self,name, bank_balance=  0):
         self.name = name

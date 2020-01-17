@@ -1,5 +1,4 @@
-
-class Circle():
+class Circle:
 
     # Class Object Attribute
     PI = 3.14

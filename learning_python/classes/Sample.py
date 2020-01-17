@@ -17,7 +17,7 @@ print(type(myset))
 
 # class  -- class keyword to create an user defined object
 
-class Sample():
+class Sample:
     def __init__(self,):
         pass
         # __init__ a method which will be called upon whenever we create an instance of this class

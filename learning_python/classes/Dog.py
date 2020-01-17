@@ -1,8 +1,7 @@
 # to see attributes of a class - breed is an attribute/characteristics of dog
 #  self - instance of object itself
 
-class Dog():
-
+class Dog:
     # Class object attribute
     # same for any instance of a class
     # here we need not to use self keyword as it is not specific to an instance of a class but is generic
