@@ -1,6 +1,6 @@
 # Data Engineering Test
 
-This directory contains a test for data engineering candidates at [CrossLend](https://www.crosslend..com).
+This directory contains a test for data engineering candidates at [xyz](https://www.xyz..com).
 
 The inspiration for this test comes from real-world experience working on originator data sets. 
 The task is to extract data from a a poorly formatted TSV file (api-response.tsv) and load it into a database table.
@@ -25,4 +25,4 @@ To take the test, please complete the following steps:
 1. Write a python script to extract, transform and load the data from api-response.tsv into a MySQL database, adhering the guidelines in the previous section.
 2. Provide a SQL script to create and insert the data into a MySQL database (Dump after the script was run)
 3. Provide a brief documentation about limitations/constraints of the ETL script 
-4. Email an archive to [hr@crosslend.com](mailto:hr@crosslend.com)
+4. Email an archive to [abc@xyz.com](mailto:abc@xyz.com)
