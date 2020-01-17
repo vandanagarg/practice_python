@@ -1,3 +1,4 @@
+#optimized code
 def has_33(nums):
     #print (len(nums))
     
@@ -23,12 +24,12 @@ def has_33(nums):
     return 'True' in check_true_false
     
     
-    # Check
-has_33([1, 3, 3])
-o/p:
-True
-
-# Check
-has_33([1, 3, 1, 3])
-o/p:
-False
+#     # Check
+print(has_33([1, 3, 3]))
+# o/p:
+# True
+#
+# # Check
+print(has_33([1, 3, 1, 3]))
+# o/p:
+# False

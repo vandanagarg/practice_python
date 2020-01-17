@@ -1,14 +1,14 @@
 #if statements
-#using if statement(special structure) that can help my code to take decisions #to execute certain code if certain conditions are true else others
+#using if statement(special structure) that can help code to take decisions #to execute certain code if certain conditions are true else others
 
-is_male= True
+is_male = True
 
 if is_male:  #this is assummed to be a true condition
     print("You are a male")  #o/p You are a male
 else:
     print("You are not a male")
 
-is_male= False
+is_male = False
 
 if is_male:
     print("You are a male")
