@@ -15,10 +15,11 @@ def myfunc(*args):
         
         
         
-        myfunc('Peeyush,Vandana')
-        o/p
-        'pEeYuSh,vAnDaNa'
-        
-        myfunc('Peeyush')
-        o/p
-        'pEeYuSh'
+print(myfunc('Peeyush,Vandana'))
+# o/p
+# 'pEeYuSh,vAnDaNa'
+#
+print(myfunc('Peeyush'))
+
+# o/p
+# 'pEeYuSh'

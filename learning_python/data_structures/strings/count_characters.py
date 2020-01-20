@@ -11,5 +11,7 @@ res = Counter(test_str)
 print("Count of all characters in GeeksforGeeks is :\n " + str(res))
 print("\nCount of G in GeeksforGeeks is : " + str(res["G"]))
 
-counter= test_str.count("e")
-print("\ncount is : "+ str(counter))
+counter = test_str.count("e")
+print("\ncount is : " + str(counter))
+
+
