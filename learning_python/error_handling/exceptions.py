@@ -1,4 +1,3 @@
-
 # Try Except block
 
 try:
@@ -30,12 +29,12 @@ except ZeroDivisionError as err:
     print(err)
     
    
-   o/p
-   
-C:\Users\as\Anaconda3\envs\Giraffe\python.exe C:/Users/as/PycharmProjects/Giraffe/app.py
-Enter a number : jhg
-invalid input !!
-Divide by Zero!!
-division by zero
-
-Process finished with exit code 0
+#    o/p
+#
+# C:\Users\as\Anaconda3\envs\Giraffe\python.exe C:/Users/as/PycharmProjects/Giraffe/app.py
+# Enter a number : jhg
+# invalid input !!
+# Divide by Zero!!
+# division by zero
+#
+# Process finished with exit code 0

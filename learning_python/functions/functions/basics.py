@@ -3,7 +3,8 @@
 
 def sayhi():
     print("Hello User")
-    sayhi() # calling function
+
+sayhi() # calling function
 
 #passing parameters #can give any n number of parameters
 def sayhi(name):
@@ -17,26 +18,26 @@ def cube(num):
     return num*num*num  #if we dont put return in front of this then if we try to print o/p it returns nothing (either blank or NONE as o/p)
     print("code")  #this line of code will never be executed
 
-print(cube(3))
+print("result1: "+ str(cube(3)))
 
 result = cube(3)
-print(result)
+print("result2: "+ str(result))
 
 
 ##this line of code give no o/p
-def cube(num):
+def cube_num(num):
     num*num*num
     
-cube(3)
+cube_num(5)
 
 ##this line of code give  o/p as NONE
-def cube(num):
+def cube_none(num):
     num*num*num
     
-print(cube(3))
+print("result4: "+ str(cube_none(4)))
 
 ##this line of code give  o/p as 27
-def cube(num):
+def cube_return(num):
     return num*num*num
     
-print(cube(3))
+print("result5: "+ str(cube_return(3)))

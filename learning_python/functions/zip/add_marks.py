@@ -10,7 +10,7 @@ for item in zip(num_maths,num_eng):
     total_marks.append(item[0] + item[1])
    # print (total_marks)
 
-print (total_marks)
+print(total_marks)
 
 #total_marks = num_maths + num_eng
 #print(total_marks)
