@@ -1,3 +1,5 @@
+##using map
+
 def square_num(num):
     return num ** 2
 
