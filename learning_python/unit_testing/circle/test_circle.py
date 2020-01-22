@@ -29,18 +29,7 @@ class TestCircleArea(unittest.TestCase):
 
     def test_types(self):
         # Make sure type errors are raised when necessary
-        self.assertRaises(TypeError,circle_area, 3+5j)
+        self.assertRaises(TypeError, circle_area, 3+5j)
         self.assertRaises(TypeError, circle_area, True)
         self.assertRaises(TypeError, circle_area, "radius")
 
-
-
-
-#cd C:/Users/as/PycharmProjects/Giraffe
-# python -m unittest   #here it will look for the file to be tested using test discovery method
-# - m option instructs Python to run the unit test module as a script
-
-#to get help/details about any function that we want to use lets say assertSetEqual function
-# first write # import unittest
-#next #help(unittest.TestCase.assertSetEqual)
-#this command gives u a detailed description of the function

@@ -10,7 +10,7 @@ print("the sum of numbers is : " + result)  # with this line of code input would
 
 result = int(num1) + int(num2)
 print("the sum of numbers is : " + str(result))  #now answer is the sum of numbers is : 14
-print(result)  # answer is 14
+print(result)  # 14
 
 #for decimal inputs #lets say 12.6 and 2.8
 result = float(num1) + float(num2)

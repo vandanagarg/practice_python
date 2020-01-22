@@ -22,5 +22,3 @@ def cap_test(text):
     '''
     return text.title()
 
-
-
