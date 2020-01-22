@@ -1,12 +1,11 @@
-
 class Employee:  #Base class
 
     num_of_emps = 0
-    raise_amt= 1.04
+    raise_amt = 1.04
 
-    def __init__(self, first, last,pay):
+    def __init__(self, first, last, pay):
         self.first = first
-        self.last =  last
+        self.last = last
         self.pay = pay
         # self.email = first + "." + last + "@company.com"
 
@@ -73,34 +72,6 @@ class Employee:  #Base class
     def is_workday(day):
         pass
 
-emp1 = Employee("Vandana", "Garg", 60000)
-emp2 = Employee("Peeyush", "Singla", 70000)
-
-emp_str_1 = "Vandana-Singla-60000"
-new_emp_1 = Employee.from_string(emp_str_1)
-#
-# print(Employee.fullname(new_emp_1))
-#
-# print(new_emp_1.email)
-# print(new_emp_1.pay)
-#
-# Employee.set_raise_amt(1.05)
-# # emp1.set_raise_amt(1.05)
-#
-# print(Employee.__dict__)
-# print(emp1.__dict__)
-# print(Employee.raise_amt)
-# print(emp1.raise_amt)
-# print(emp2.raise_amt)
-#
-# emp1.raise_amt = 1.06
-#
-# print(emp1.raise_amt)
-# print(emp1.__dict__)
-#
-
-
-
 # class/instance.__dict__
 
 
@@ -139,7 +110,7 @@ class Manager(Employee):  # derived class
 
     def print_emps(self):
         for emp in self.employees:
-            print("-->", emp.fullname())
+            print("-->", emp.fullname)
 
 
 
@@ -150,31 +121,47 @@ dev_2 = Developer("Test", "User", 50000, "Java")
 mgr_1 = Manager("Sue", "Smith", 980000, [dev_1])
 
 
-#if object is instance of a class
+# if object is instance of a class
 
-# print(isinstance(mgr_1, Manager))
-# print(isinstance(mgr_1, Developer))
+print(isinstance(mgr_1, Manager))
+print(isinstance(mgr_1, Developer))
+
+print(issubclass(Manager, Developer))
+print(issubclass(Developer, Employee))
+
+print(mgr_1.email)
+print(mgr_1.employees)
+
+mgr_1.add_emp(dev_2)
+mgr_1.print_emps()
+
+mgr_1.remove_emp(dev_1)
+mgr_1.print_emps()
+
+print(help(Developer))
+print(dev_1.email)
+print(dev_2.email)
+print(dev_1.prog_lang)
+
 #
-# print(issubclass(Manager, Developer))
-# print(issubclass(Developer, Employee))
-
-# print(mgr_1.email)
-# print(mgr_1.employees)
+# emp1.first = "Peeyush"
 #
-# mgr_1.add_emp(dev_2)
-# mgr_1.print_emps()
+# emp1.fullname = "Vandana Singla"
 #
-# mgr_1.remove_emp(dev_1)
-# mgr_1.print_emps()
-
-# print(help(Developer))
-# print(dev_1.email)
-# print(dev_2.email)
-# print(dev_1.prog_lang)
-
+# print(emp1.first)
+# print(emp1.fullname)
+# print(emp1.email)
+#
+# del emp1.fullname
+#
+# print(emp1.first)
+# print(emp1.fullname)
+# print(emp1.email)
+#
+#
 # print(emp1)
 # print(emp2)
-
+#
 # print(repr(emp1))
 # print(str(emp1))
 #
@@ -200,17 +187,3 @@ mgr_1 = Manager("Sue", "Smith", 980000, [dev_1])
 # ab
 # 130000
 # 13
-
-# emp1.first = "Peeyush"
-
-emp1.fullname = "Vandana Singla"
-
-print(emp1.first)
-print(emp1.fullname)
-print(emp1.email)
-
-del emp1.fullname
-
-print(emp1.first)
-print(emp1.fullname)
-print(emp1.email)
