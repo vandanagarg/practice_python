@@ -6,7 +6,7 @@ employee_file.write("\nkelly - HR ")  #nothing shows up in the console, but if u
 #but be carefull if u happen to run again it appends in file twice
 
 # now where and how it appends it depends , if we have a new line space in our file it will append in the next line
-# if we dont have a new line space in our file its going to append in the same line like in the end in sequence
+# if we don't have a new line space in our file its going to append in the same line like in the end in sequence
 # so if we want it to come in new line we must give a new line character "\n " to tell it to go in new line
 # but if we give a new line character and it has already one line space in file then it skips one line and prints in next line
 
