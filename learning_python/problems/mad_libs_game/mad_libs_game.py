@@ -11,6 +11,7 @@ plural_noun = input("Enter a noun: ")
 celeb_name = input("Enter a name: ")
 
 #printing o/p
-print("Roses are " + color )
-print(plural_noun+ " are blue ")
-print("I love " +celeb_name)
+print("Roses are " + color)
+print(plural_noun + " are blue ")
+print("I love " + celeb_name)
+
