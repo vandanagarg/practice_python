@@ -53,7 +53,7 @@ def replay():
         choose_sign()
 
 
-#########################################
+#main program
 def play_game():
 
     test_board = [" "," "," "," "," "," "," "," "," "," "]
