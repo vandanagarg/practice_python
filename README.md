@@ -10,8 +10,9 @@ Well, these are the lines that one can easily read about python in its documenta
 But for a beginner or for a person coming from a complete different background like me; 
 all this makes a very little sense or is just not at all motivating to learn Python.
 
-####So who am I?  Why Python?  How did I start?  What all I did?  How I feel now?
-#####All these questions are answered just below :smiley:
+#### So who am I?  Why Python?  How did I start?  What all I did?  How I feel now?
+
+##### All these questions are answered just below :smiley:
 
 * I am DWH-BI / ETL resource with Informatica as primary skill.
 * As I was looking for new opportunities further, I realized having knowledge of one programming language will certainly help me.
@@ -24,7 +25,7 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
 * Folder [project_TSV_file_ETL](https://github.com/vandanagarg/practice_python/tree/master/project_TSV_file_ETL) contains a data engineering test problem implemented using Python.
 
 
-###Project Description [learning_python](https://github.com/vandanagarg/practice_python/tree/master/learning_python)
+### Project Description [learning_python](https://github.com/vandanagarg/practice_python/tree/master/learning_python)
 
 **Language** :- Python
 
@@ -42,7 +43,7 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
 
 **Framework** :- Pandas
 
-######I have divided and structured the folder as per the sections covered and problems implemented by me. Given below are the links and details of the different topics covered under the course.
+###### I have divided and structured the folder as per the sections covered and problems implemented by me. Given below are the links and details of the different topics covered under the course.
 
 
 * First I have started with basics of python programing and implementation of various [data structures](https://github.com/vandanagarg/practice_python/tree/master/learning_python/data_structures) (Numbers, Strings, Lists, Dictionaries, Tuples, Sets, Booleans).
@@ -107,5 +108,6 @@ frameworks, ml
 **P.S.** : I am actively looking for Data Engineering job opportunities in Berlin.
        If you have got any reference, please reach out to me :smiley:
        
-       :email:  vandana.sde@gmail.com
-       :computer:  https://www.linkedin.com/in/vandana-garg/
+`:email:  vandana.sde@gmail.com`
+   
+:computer:  https://www.linkedin.com/in/vandana-garg/
