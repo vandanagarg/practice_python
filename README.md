@@ -108,6 +108,6 @@ frameworks, ml
 **P.S.** : I am actively looking for Data Engineering job opportunities in Berlin.
        If you have got any reference, please reach out to me :smiley:
        
-`:email:  vandana.sde@gmail.com`
+:email:  vandana.sde@gmail.com
    
 :computer:  https://www.linkedin.com/in/vandana-garg/
