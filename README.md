@@ -87,20 +87,105 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
        The folder contains a number of functions implemented using different data structures and its properties.
     
 
-* Moving next to various important concepts python operators, type casting , loops, branching statements and functions.
-
-
+* Moving next to various important concepts python operators, type casting , branching statements, loops and functions.
+    
+    1. Python [operators](https://github.com/vandanagarg/practice_python/tree/master/learning_python/operators)
+       It covers basic examples and commands of operators in python.
+       
+    2. [Type Casting](https://github.com/vandanagarg/practice_python/tree/master/learning_python/type_casting)
+       It shows the usage and importance of type casting while printing results within a function.
+    
+    3. [Branching Statements](https://github.com/vandanagarg/practice_python/tree/master/learning_python/branching_statements)
+       Shows working of if else statements and program flow.
+       
+    4. [Loops](https://github.com/vandanagarg/practice_python/tree/master/learning_python/loops)
+       It shows different examples using functions of most commonly used [for](https://github.com/vandanagarg/practice_python/tree/master/learning_python/loops/for_loop) and [while](https://github.com/vandanagarg/practice_python/tree/master/learning_python/loops/while_loop) loops.
+       
+    5. [Functions](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions)
+       It shows usage of various important functions used in python and creating our own functions taking different examples from the course.
+         
+        a. [*args and **kwargs](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/args_kwargs)
+        
+        b. [enumerate](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/enumerate)
+        
+        c. [input function](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/input_function)
+        
+        d. [map, filter, lambda](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/map_filter_lambda) function.
+        
+        e. [zip](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/zip) function. 
+        
+        f. [exersises](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/functions)
+        
 * Moving to advance concepts of oops; making classes, modules and packages.
-* Moving on to error handling and exceptions part.
-* I have also learnt about Inheritance, Python Decorators and Generators in this course.
-* I have also covered a few important modules under this course namely, collections module, datetime, 
-  python debugger, timeit, regular expressions, StringIO.
-* Working with files, csv files.
-* Unit testing
-* I have also implemented a couple of problems and have divided some of them on basis of data structures.
-* Used Pycharm and also Jupyter notebooks
+    
+    1.  [Class](https://github.com/vandanagarg/practice_python/tree/master/learning_python/classes)
+        This folder contains a few examples of user defined classes.
+    
+    2. [Modules and Packages](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages)
+       It shows usage of a few python inbuilt modules and how to import a module within your code and use it.
+       
+       a. [datetime](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages/modules/datetime) module.
+       
+       b. [importing module](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages/modules/importing_modules) Importing a .py script in your code and using its existing functionality.
+         
+       c. [pdb](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages/modules/pdb) Python debugger module.
+       
+       d. [StringIO](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages/modules/string_io) module.
+       
+       e. [timeit](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages/modules/timeit) module.
+       
+       
+* Moving on to [error handling](https://github.com/vandanagarg/practice_python/tree/master/learning_python/error_handling).
+   
+  There are (at least) two distinguishable kinds of errors: syntax errors and exceptions.The folder contains a few programs that handle selected errors/exceptions.
+ 
+* I have also learnt about various important concepts of Inheritance, Python Decorators and Generators in this course.
+  Each folder contains a few examples, elaborating its usage and implementation. 
+  
+  1. [Inheritance](https://github.com/vandanagarg/practice_python/tree/master/learning_python/inheritance)
+  
+  2. [decorator](https://github.com/vandanagarg/practice_python/tree/master/learning_python/decorator)
+  
+  3. [generators](https://github.com/vandanagarg/practice_python/tree/master/learning_python/generators)
+  
 
-frameworks, ml
+* Covering very commonly used [regular expressions](https://github.com/vandanagarg/practice_python/tree/master/learning_python/regular_expressions).
+   
+  **String Pattern Matching** The re module provides regular expression tools for advanced string processing. For complex matching and manipulation, regular expressions offer succinct, optimized solutions.
+  This folder contains a few examples of re module.
+
+* [Working with files](https://github.com/vandanagarg/practice_python/tree/master/learning_python/working_with_files).
+
+  Being in data engineering field it is very important to learn to how to read, write, cleanup or do various operations with a file.
+  Here these folders include basic and important commands used for file manipulations.  
+
+    1. Basic read write operations on a [file](https://github.com/vandanagarg/practice_python/tree/master/learning_python/working_with_files).
+    
+    2. Working with [csv](https://github.com/vandanagarg/practice_python/tree/master/learning_python/csv) file.
+    
+    
+* [Unit testing](https://github.com/vandanagarg/practice_python/tree/master/learning_python/unit_testing)
+
+  TDD is very important aspect of development these days. Thus its very important to know and understand how to create your unit test/ classes.
+  This folder shows 2 examples of making your own unit test class/case.
+
+* I am implementing a couple of famous problems and have divided some of them on basis of data structures.
+    
+    1. [black_jack_game](https://github.com/vandanagarg/practice_python/tree/master/learning_python/problems/black_jack_game)
+    
+    2. [mad_libs_game](https://github.com/vandanagarg/practice_python/tree/master/learning_python/problems/mad_libs_game)
+    
+    3. various [numbers](https://github.com/vandanagarg/practice_python/tree/master/learning_python/problems/numbers_problems) problems.
+    
+    4. various [text](https://github.com/vandanagarg/practice_python/tree/master/learning_python/problems/text_problems) problems.
+    
+    5. [tic_tac_toe](https://github.com/vandanagarg/practice_python/tree/master/learning_python/problems/tic_tac_toe) game. 
+
+* I have used mostly used Pycharm to implement most of my problems but I have also Jupyter notebook so as to become familiar with this IDE.
+  So the folder [working_with_jupyter_notebooks](https://github.com/vandanagarg/practice_python/tree/master/learning_python/working_with_jupyter_notebooks)
+  contains a few problems of functions , loops, data structures etc.
+  
+* Further this I will be working on a few frameworks in python and how can these be implemented in different fields such as machine learning or data engineering.
 
 
 
