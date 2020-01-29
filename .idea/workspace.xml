@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b54245b8-dfcf-404a-8e0b-a91af4380ad7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WzYYEVlzzzIZ9OaaxLkV7e8cxH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.examples">
+    <configuration name="alternate_caps" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="practice_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning_python/loops/for_loop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_python/loops/for_loop/alternate_caps.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="examples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="practice_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learning_python/loops/for_loop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learning_python/loops/for_loop/examples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.alternate_caps" />
+      <item itemvalue="Python.examples" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.examples" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b54245b8-dfcf-404a-8e0b-a91af4380ad7" name="Default Changelist" comment="" />
+      <created>1580153936297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580153936297</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="78" y="-927" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580154292548">
+      <screen x="-346" y="-1177" width="1920" height="1177" />
+    </state>
+    <state x="78" y="-927" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580154292548" />
+    <state x="152" y="-938" key="DBNavigator.ProjectSettingsDialog" timestamp="1580157792223">
+      <screen x="-346" y="-1200" width="1920" height="1200" />
+    </state>
+    <state x="152" y="-938" key="DBNavigator.ProjectSettingsDialog/0.0.1440.900/-346.-1200.1920.1200@-346.-1200.1920.1200" timestamp="1580157792223" />
+    <state width="1899" height="329" key="GridCell.Tab.0.bottom" timestamp="1580155442561">
+      <screen x="-346" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="329" key="GridCell.Tab.0.bottom/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580155442561" />
+    <state width="1899" height="329" key="GridCell.Tab.0.center" timestamp="1580155442560">
+      <screen x="-346" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="329" key="GridCell.Tab.0.center/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580155442560" />
+    <state width="1899" height="329" key="GridCell.Tab.0.left" timestamp="1580155442560">
+      <screen x="-346" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="329" key="GridCell.Tab.0.left/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580155442560" />
+    <state width="1899" height="329" key="GridCell.Tab.0.right" timestamp="1580155442560">
+      <screen x="-346" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="329" key="GridCell.Tab.0.right/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580155442560" />
+    <state x="440" y="182" key="com.intellij.ide.util.TipDialog" timestamp="1580208343058">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="241" y="-982" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-346.-1200.1920.1200@-346.-1200.1920.1200" timestamp="1580157566043" />
+    <state x="241" y="-963" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580156708166" />
+    <state x="440" y="182" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1580208343058" />
+    <state x="279" y="-912" key="search.everywhere.popup" timestamp="1580299827508">
+      <screen x="-346" y="-1177" width="1920" height="1177" />
+    </state>
+    <state x="279" y="-912" key="search.everywhere.popup/0.23.1440.877/-346.-1177.1920.1177@-346.-1177.1920.1177" timestamp="1580299827508" />
+  </component>
+</project>

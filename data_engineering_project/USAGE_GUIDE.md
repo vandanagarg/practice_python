@@ -1,4 +1,4 @@
-# Data Engineering Test Solution Guide
+# Data Engineering Solution Guide
 
 ##TECH STACK
 * Python IDE - Pycharm
