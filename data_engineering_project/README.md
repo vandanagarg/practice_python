@@ -11,13 +11,13 @@ We have to write a simple script using Python to get the values from (api-respon
 The resulting database should have the following properties:
 
 * A primary index exists
-* Each database row contains as much data from the TSV as possible
-* TSV reserved characters (e.g. `\t`, `\r`, `\n`) should be removed
-* All fields are UTF-8 encoded (`api-response.tsv` is UTF-16LE encoded)
-* Fields do have a reasonable data-type 
+* Each database row contains as much data from the TSV as possible.
+* TSV reserved characters (e.g. `\t`, `\r`, `\n`) should be removed.
+* All fields are UTF-8 encoded (`api-response.tsv` is UTF-16LE encoded).
+* Fields do have a reasonable data-type .
 
 
-At the end we must have following:
+###### At the end we must have following:
 
 1. A python script to extract, transform and load the data from api-response.tsv into a MySQL database, adhering the guidelines in the previous section.
 2. A SQL script to create and insert the data into a MySQL database (Dump after the script was run).

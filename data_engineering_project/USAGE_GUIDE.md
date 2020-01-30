@@ -1,6 +1,6 @@
 # Data Engineering Solution Guide
 
-##TECH STACK
+## TECH STACK
 * Python IDE - Pycharm
 * MySQL Server
 
