@@ -22,7 +22,7 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
 * So under this repository [practice_python](https://github.com/vandanagarg/practice_python), I have maintained all python
   code and projects that I have worked on while learning python.
 * You can find all programs and problem statements that I have implemented under folder [learning_python](https://github.com/vandanagarg/practice_python/tree/master/learning_python).
-* Folder [project_TSV_file_ETL](https://github.com/vandanagarg/practice_python/tree/master/project_TSV_file_ETL) contains a data engineering test problem implemented using Python.
+* Folder [data_engineering_project](https://github.com/vandanagarg/practice_python/tree/master/project_TSV_file_ETL) contains a data engineering test problem implemented using Python.
 
 
 ### Project Description [learning_python](https://github.com/vandanagarg/practice_python/tree/master/learning_python)
