@@ -81,7 +81,7 @@ print(new_emp_1.email)
 print(new_emp_1.pay)
 
 Employee.set_raise_amt(1.05)
-# emp1.set_raise_amt(1.05)
+emp1.set_raise_amt(1.05)
 
 print(Employee.__dict__)
 print(emp1.__dict__)
