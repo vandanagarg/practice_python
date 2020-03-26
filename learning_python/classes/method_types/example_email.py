@@ -5,7 +5,7 @@
 
 class User:
 
-    counter = 0
+    counter = 0  # class variable
 
     @classmethod
     def send_email(cls, email):
