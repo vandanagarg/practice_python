@@ -1,28 +1,22 @@
 # Method Types OOP Python
 
-* Plain/ Regular methods or Instance methods
+### 1. Plain/ Regular methods or Instance methods
 
-object instance/ argument (self)
+* object instance/ argument (self)
+* :white_check_mark: Can modify object instance state / Has access to object instance
+* :white_check_mark: Can modify class state / Has access to class
 
-:white_check_mark: Can modify object instance state / Has access to object instance
+### 2. Class methods
 
-:white_check_mark: Can modify class state / Has access to class
+* class instance/ argument (cls)
+* :negative_squared_cross_mark: Can't modify object instance state / Has no access to object instance
+* :white_check_mark: Can modify class state (cls) / Has access to class
 
-* Class methods
+### 3. Static methods
 
-class instance/ argument (cls)
-
-:negative_squared_cross_mark: Can't modify object instance state / Has no access to object instance
-
-:white_check_mark: Can modify class state (cls) / Has access to class
-
-* Static methods
-
-no instance/ no arguments
-
-:negative_squared_cross_mark: Can't modify object instance state / Has no access to object instance
-
-:negative_squared_cross_mark: Can't modify class state / Has no access to class
+* no instance/ no arguments
+* :negative_squared_cross_mark: Can't modify object instance state / Has no access to object instance
+* :negative_squared_cross_mark: Can't modify class state / Has no access to class
 
 #### *When to use?*
 Since static method doesn't have access to class or object instance at all.
