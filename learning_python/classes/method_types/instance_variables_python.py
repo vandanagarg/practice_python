@@ -28,7 +28,7 @@ User("peyush").send_email()
 User("singla").send_email()
 User("vsingla").send_email()
 
-# using __repr__ built in method
+# using __repr__ built in method to return and print output
 print(User("er.vandana"))
 print(User("peyush"))
 print(User("singla"))
