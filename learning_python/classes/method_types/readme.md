@@ -57,3 +57,15 @@ cls_method(D, 1, 2)
 # from where it has been  called.
 
 ```
+
+#### *Points to remember:*
+
+* Class - something that allows us to logically group our data and functions
+* In terms of a class; data is referred to as attributes and functions are
+referred to as methods.
+* The actual value/ data that we give/assign/pass to a method is called argument.
+* LHS are attributes and RHS are arguments; so in short we pass arguments into the
+attributes.
+* Class acts as a blueprint for different instances of a class.
+* If there is a method in a class in which it is not referenced by any instance variable nor class variable
+then it is best that we make it a static method , instead of declaring it under instance/class methods.
