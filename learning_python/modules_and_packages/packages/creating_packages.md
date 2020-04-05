@@ -1,4 +1,4 @@
-#Creating our own modules and packages
+# Creating our own modules and packages
 
 * modules are just .py scripts that we call in another .py script.
 * packages are a collection of modules.
