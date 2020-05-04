@@ -1,12 +1,14 @@
 ''' Problem: To make a price cart for a shopping mall
 The price is decided on the number of units of product you purchase.
-
+Also the offers on the products must be taken into consideration.
 '''
+
+
 class PriceCalculator():
-    
+
     DICT_ITEM_COST = {
         "milk": {"price": 59, "offer": {"quantity": 3, "price": 150}},
-        "curd": {"price": 181}, 
+        "curd": {"price": 181},
         "apple": {"price": 310},
         "cream": {"price": 281, "offer": {"quantity": 4, "price": 700}},
         "biscuit": {"price": 200},
@@ -20,19 +22,20 @@ class PriceCalculator():
     def cal_sp(self):
         selling_price = 0
         for (item_name, order_quantity) in purchase_items_dict.items():
-            item_price = PriceCalculator.DICT_ITEM_COST[item_name]["price"]
-            try:
-                offer_key = PriceCalculator.DICT_ITEM_COST[item_name]["offer"]
-                offer_quantity = offer_key["quantity"]
-                if (offer_key):
-                    if order_quantity < offer_quantity:
-                        price = item_price * order_quantity
-                    else:
-                        offer_applied = order_quantity//offer_quantity
-                        extra = order_quantity%offer_quantity
-                        price = offer_key["price"] * offer_applied + item_price * extra
-            except KeyError:
-                price = item_price * order_quantity
+            current_item = PriceCalculator.DICT_ITEM_COST[item_name]
+            item_price = current_item["price"]
+            regular_price = item_price * order_quantity
+            if ("offer" in current_item):
+                offer = current_item["offer"]
+                offer_quantity = offer["quantity"]
+                if (order_quantity < offer_quantity):
+                    price = regular_price
+                else:
+                    offer_applied, extra = divmod(
+                                            order_quantity, offer_quantity)
+                    price = offer["price"] * offer_applied + item_price * extra
+            else:
+                price = regular_price
             selling_price = selling_price + price
         return selling_price
 
