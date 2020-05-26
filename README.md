@@ -116,9 +116,9 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
         
         f. [exersises](https://github.com/vandanagarg/practice_python/tree/master/learning_python/functions/functions)
         
-* Moving to advance concepts of oops; making classes, modules and packages.
+* Moving to advance concepts of oops; making class, modules and packages.
     
-    1.  [Class](https://github.com/vandanagarg/practice_python/tree/master/learning_python/classes)
+    1.  [Classes](https://github.com/vandanagarg/practice_python/tree/master/learning_python/classes)
         This folder contains a few examples of user defined classes.
     
     2. [Modules and Packages](https://github.com/vandanagarg/practice_python/tree/master/learning_python/modules_and_packages)
@@ -159,7 +159,7 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
   Being in data engineering field it is very important to learn to how to read, write, cleanup or do various operations with a file.
   Here these folders include basic and important commands used for file manipulations.  
 
-    1. Basic read write operations on a [file](https://github.com/vandanagarg/practice_python/tree/master/learning_python/working_with_files).
+    1. Basic read write operations on a file [working_with_files](https://github.com/vandanagarg/practice_python/tree/master/learning_python/working_with_files).
     
     2. Working with [csv](https://github.com/vandanagarg/practice_python/tree/master/learning_python/csv) file.
     
@@ -184,7 +184,11 @@ all this makes a very little sense or is just not at all motivating to learn Pyt
 * I have used mostly used Pycharm to implement most of my problems but I have also Jupyter notebook so as to become familiar with this IDE.
   So the folder [working_with_jupyter_notebooks](https://github.com/vandanagarg/practice_python/tree/master/learning_python/working_with_jupyter_notebooks)
   contains a few problems of functions , loops, data structures etc.
-  
+
+* Folder [code_kata](https://github.com/vandanagarg/practice_python/tree/master/learning_python/code_kata) contains solutions for different [code kata's](http://codekata.com/).
+
+* Folder [mit_lectures](https://github.com/vandanagarg/practice_python/tree/master/learning_python/mit_lectures) contains solved problems and concepts related to python covered under [MIT tutorials](https://www.youtube.com/playlist?list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA).
+
 * Further this I will be working on a few frameworks in python and how can these be implemented in different fields such as machine learning or data engineering.
 
 
