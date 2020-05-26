@@ -2,3 +2,5 @@
 **/*.pyc
 **/.vscode/
 **/.DS_Store
+learning_python/machine_learning/*
+learning_python/pandas/*
