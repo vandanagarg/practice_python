@@ -1,7 +1,10 @@
 ''' Fibonacci series using dictionaries -
-In this cas we use concept called memorization to store the
+In this case we use concept called memorization to store the
 values and then using recursion to solve the complete problem.
-Here it is more efficient and takes much smaller for computations '''
+Here it is more efficient and takes much smaller time for computations
+A dictionary here can be used to store intermediate values that don't
+change with each computations and thus can be reffred to in later steps
+and hence increases the overall computation time '''
 
 
 def fib_efficient(n, d):
