@@ -1,4 +1,5 @@
-'''  '''
+''' Creating a Class/ random abstract datatype of type Coordinate
+This is an example for OOPS concept in programming '''
 
 
 class Coordinate(object):
