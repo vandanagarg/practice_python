@@ -30,7 +30,7 @@ class Animal(object):
 
     # special method __str__
     def __str__(self):
-        return "animal:", str(self.name), ":", str(self.age)
+        return "animal:" + str(self.name) + ":" + str(self.years)
 
 
 # creating instance
