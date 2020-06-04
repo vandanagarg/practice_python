@@ -23,6 +23,8 @@ class Animal(object):
         self.age = newage  # if not changed, creates a new attribute age
         self.years = newage  # updates new/existing attribute years
 
+    # using default arguments for formal parameters are used if no
+    # actual argument is given
     def set_name(self, newname=""):
         self.name = newname
 
@@ -38,6 +40,7 @@ myanimal = Animal(4)
 a = Animal(3)
 # print(a.age)  # allowed, but not recommended
 # also, gives error since no such attribute age
+
 # Ways to information hiding
 print(a.get_age())  # recommended way
 
@@ -45,3 +48,12 @@ print(a.get_age())  # recommended way
 a.set_age(7)
 print(a.get_age())  # updates years attribute
 print(a.age)  # creates a new age attribute; hence no error
+
+# using default arguments in setter method set_name
+print("\n Default arguments used here")
+a.set_name()
+print("name:", a.get_name())
+
+print("\n Argument passed in is used here")
+a.set_name("fluffy")
+print("name:", a.get_name())
