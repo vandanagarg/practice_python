@@ -10,3 +10,6 @@ def avg(*args):
 
 
 print(avg(*[2, 5]))
+
+l = [2, 6]
+print(sum(l))
