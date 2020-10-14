@@ -1,7 +1,7 @@
 # replace a string
 
 string = "abracadabra"
-l = list(string)
+l = list(string)  # noqa:E741
 l[5] = 'k'
 print(l)
 string = ''.join(l)
