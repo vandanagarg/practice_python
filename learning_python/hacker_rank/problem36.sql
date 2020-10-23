@@ -2,7 +2,6 @@
 
 
 -- option 1
-
 SELECT GROUP_CONCAT(NUMB SEPARATOR '&')
 FROM (
     SELECT @num:=@num+1 as NUMB FROM
@@ -22,7 +21,6 @@ WHERE NUMB<=1000 AND NOT EXISTS(
 	)
 
 -- option 2
-
 SET @potential_prime = 1;
 SET @divisor = 1;
 
